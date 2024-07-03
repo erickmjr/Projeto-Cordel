@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); /* 'Allura'*/
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Junge&display=swap'); /* 'Junge' */
+
+:root{
+
+    --fonte-destaque: 'Allura', 'cursive';
+    --fonte-padrao: 'Junge', Arial, sans-serif;
+
+    --cor1: #000000;
+    --cor2: #fff;
+    --cor3: #FFC0CB;
+    --cor4: #616283;
+    --cor5: #637081;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #261d05;
+    height: 100vh;
+}
+
+a#frank{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-image: linear-gradient(45deg, var(--cor2) 10%, var(--cor3)) ;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header > h1{
+    font-size: 80px;
+    font-family: var(--fonte-destaque);
+}
+
+header > p{
+    font-family: var(--fonte-destaque);
+    font-size: 30px;
+}
+
+
+.letter{
+    font-family: var(--fonte-padrao);
+    padding: 35px;
+}
+
+.letter p{
+    font-size: 30px;
+}
+
+#sec1{
+    background-color: var(--cor4);
+}
+
+#sec2{
+    height: 500px;
+    background-color: var(--cor2);
+    background-image: url('images/file.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#sec2 p{
+    text-shadow: 8px 12px 20px  black;
+}
