@@ -76,10 +76,22 @@ header > p{
     
 }
 
+#sec2 ul{
+    margin-top: 75px;
+}
+
 #sec2 p{
     text-shadow: 8px 12px 20px  black;
 }
 
+@media screen and (max-width:1300px){
+    #sec2{
+        background-position: 50px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+}
 
 @media screen and (max-width:800px){
     #sec2 {
@@ -102,6 +114,5 @@ header > p{
     header > p{
         font-size: 20px;
     }
-
-
 }
+
