@@ -4,12 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Junge&display=swap'); /* 'Junge' */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 'Poppins' */
 
 
 :root{
 
     --fonte-destaque: 'Allura', 'cursive';
-    --fonte-padrao: 'Junge', Arial, sans-serif;
+    --fonte-padrao: 'Poppins', Arial, sans-serif;
 
     --cor1: #000000;
     --cor2: #fff;
@@ -80,7 +82,7 @@ header > p{
 }
 
 .letter p{
-    text-shadow: 8px 12px 20px  black;
+    
 }
 
 #sec3{
