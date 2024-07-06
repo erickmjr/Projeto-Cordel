@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); /* 'Allura'*/
 
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Junge&display=swap'); /* 'Junge' */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* 'Poppins' */
 
@@ -81,9 +79,6 @@ header > p{
     
 }
 
-.letter p{
-    
-}
 
 #sec3{
     background-image: linear-gradient(360deg, var(--cor3), var(--cor2) 50%);
@@ -95,7 +90,7 @@ header > p{
     background-image: url(images/frank2.png);
     background-repeat: no-repeat;
     background-position: top right;
-    height: 280px;
+    height: 320px;
 }
 
 
@@ -104,6 +99,7 @@ footer{
     padding: 20px;
     background-color: var(--cor1);
     text-align: center;
+
 }
 
 footer p{
@@ -135,14 +131,14 @@ footer p{
 
     #sec2 ul{
         box-shadow: 0px 0px 20px black;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(20px);
         border-radius: 10px;
         padding: 5px;
     }
 
     #sec4 ul{
         box-shadow: 0px 0px 20px black;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(20px);
         border-radius: 10px;
         padding: 5px;
     }
