@@ -144,6 +144,7 @@ footer p{
     }
 
     #sec2 ul{
+        background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 0px 0px 20px var(--cor1);
         -webkit-backdrop-filter: blur(20px); /* Prefixo para WebKit (Chrome, Safari) */
         backdrop-filter: blur(20px); 
@@ -160,6 +161,7 @@ footer p{
     }
 
     #sec5 ul{
+        background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 0px 0px 20px var(--cor1);
         -webkit-backdrop-filter: blur(20px); /* Prefixo para WebKit (Chrome, Safari) */
         backdrop-filter: blur(20px); 
