@@ -96,12 +96,16 @@ header > p{
 }
 
 #sec5{
-
+    
     background-color: var(--cor3) ;
     background-image: url(images/frank2.png);
     background-repeat: no-repeat;
     background-position: top right;
     height: 320px;
+}
+
+#sec5 ul{
+    max-width: fit-content;
 }
 
 
@@ -130,6 +134,7 @@ footer p{
     #sec2 ul{
         border-radius: 10px;
         padding: 5px;
+        
     }
 }
 
@@ -137,37 +142,26 @@ footer p{
 @media screen and (max-width:1000px){
 
     #sec2 {
-        background-position: top center;
+        background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         max-height: 1200px;
     }
 
     #sec2 ul{
-        background-color: rgba(255, 255, 255, 0.8);
-        box-shadow: 0px 0px 20px var(--cor1);
-        -webkit-backdrop-filter: blur(20px); /* Prefixo para WebKit (Chrome, Safari) */
-        backdrop-filter: blur(20px); 
+        box-shadow: 0px 0px 10px var(--cor1);
         border-radius: 10px;
         padding: 5px;
         margin: auto;
+        background-color: rgba(0, 0, 0, 0.5);
         }
+
+    #sec2 p{
+        color: var(--cor2);
+    }
     
     #sec5{
         max-height: 1200px;
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    #sec5 ul{
-        background-color: rgba(255, 255, 255, 0.8);
-        box-shadow: 0px 0px 20px var(--cor1);
-        -webkit-backdrop-filter: blur(20px); /* Prefixo para WebKit (Chrome, Safari) */
-        backdrop-filter: blur(20px); 
-        border-radius: 10px;
-        padding: 5px;
-        margin: auto;
     }
 
     .letter p{
@@ -180,6 +174,14 @@ footer p{
 
     header > p{
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #sec5 ul{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
     }
 }
 
