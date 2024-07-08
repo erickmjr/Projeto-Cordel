@@ -142,7 +142,7 @@ footer p{
 @media screen and (max-width:1000px){
 
     #sec2 {
-        background-position: center center;
+        background-position: center bottom;
         background-repeat: no-repeat;
         background-attachment: fixed;
         max-height: 1200px;
@@ -178,10 +178,18 @@ footer p{
 }
 
 @media screen and (max-width: 600px){
+
+    #sec5{
+        background-position: center;
+    }
     #sec5 ul{
         background-color: rgba(0, 0, 0, 0.5);
         padding: 20px;
         border-radius: 10px;
+    }
+
+    #sec5 p{
+        color: var(--cor2);
     }
 }
 
