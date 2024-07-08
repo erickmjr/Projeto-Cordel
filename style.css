@@ -13,7 +13,7 @@
 
     --cor1: #000000;
     --cor2: #fff;
-    --cor3: #FFC0CB;
+    --cor3: #F37521;
     --cor4: #616283;
     --cor5: #637081;
 
@@ -26,17 +26,12 @@
 }
 
 body{
-    background-color: #261d05;
+    background-color: var(--cor1);
     height: 100vh;
 }
 
-a#frank{
-    text-decoration: none;
-    color: black;
-}
 
 header{
-    background-image: linear-gradient(45deg, var(--cor2) 10%, var(--cor3));
     padding: 20px;
     text-align: center;
 }
@@ -47,11 +42,16 @@ header > h1{
     font-family: var(--fonte-destaque);
 }
 
+a#frank{
+    text-decoration: underline;
+    color: var(--cor1);
+    padding: 2px;
+} 
+
 header > p{
     font-family: var(--fonte-destaque);
     font-size: 30px;
 }
-
 
 .letter{
     font-family: var(--fonte-padrao);
@@ -64,7 +64,7 @@ header > p{
 
 #sec1{
     text-align: left;
-    background-image: linear-gradient(45deg, var(--cor2) 25%, #FFCCD5);
+    background-image: linear-gradient(180deg, var(--cor3) 65%, var(--cor2));
     
 }
 
@@ -79,12 +79,23 @@ header > p{
     
 }
 
+#sec2 ul{
+    max-width: 600px;
+}
 
 #sec3{
-    background-image: linear-gradient(360deg, var(--cor3), var(--cor2) 50%);
+    background-image: linear-gradient(360deg, var(--cor3) 60%, var(--cor2) );
+}
+
+#divisao{
+    margin-top: 40px;
 }
 
 #sec4{
+    background-color: var(--cor3);
+}
+
+#sec5{
 
     background-color: var(--cor3) ;
     background-image: url(images/frank2.png);
@@ -104,32 +115,29 @@ footer{
 
 footer p{
     font-family: var(--fonte-padrao);
-    color: white;
+    color: var(--cor2);
 }
 
 @media screen and (max-width:1300px){
-    #sec1{
-        background-image: linear-gradient(45deg, var(--cor2) 25%, #FFCCD5);
-    }
-
+    
     #sec2{
         background-position: 50px;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        
     }
 
     #sec2 ul{
-        box-shadow: 0px 0px 20px black;
-        backdrop-filter: blur(20px);
+        /*
+        box-shadow: 0px 0px 20px var(--cor1);
+        backdrop-filter: blur(20px); */
         border-radius: 10px;
         padding: 5px;
     }
 }
 
+
 @media screen and (max-width:1000px){
-    #sec1{
-        background-image: linear-gradient(45deg, var(--cor2) 40%, #FFCCD5);
-    }
 
     #sec2 {
         background-position: center center;
@@ -139,22 +147,20 @@ footer p{
     }
 
     #sec2 ul{
-        box-shadow: 0px 0px 20px black;
+        box-shadow: 0px 0px 20px var(--cor1);
         backdrop-filter: blur(20px);
         border-radius: 10px;
         padding: 5px;
-    }
+        margin: auto;
+        }
 
-    #sec4{
+    #sec5{
         max-height: 1200px;
     }
 
-    #sec4 ul{
-        box-shadow: 0px 0px 20px black;
-        backdrop-filter: blur(20px);
-        border-radius: 10px;
-        padding: 5px;
-        
+
+    .letter p{
+        font-size: 25px;
     }
 
     header > h1{
