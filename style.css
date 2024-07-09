@@ -181,6 +181,7 @@ a#github{
 
     #sec2 {
         background-position: center right 40%;
+        background-attachment: scroll;
     }
 
     #sec2 ul{
@@ -205,12 +206,7 @@ a#github{
 
 }
 
-@media screen and (max-width: 630px){
-
-    #sec2{
-        background-attachment: scroll;
-    }
-    
+@media screen and (max-width: 630px){ 
     #sec5{
         background-image: none;
     }
