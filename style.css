@@ -92,6 +92,7 @@ header > p{
 
 #sec2 ul{
     max-width: 600px;
+    padding: 15px;
 }
 
 #sec3{
@@ -147,8 +148,9 @@ a#github{
 
 @media screen and (max-width:1300px){
 
-    #sec2{
-        background-attachment: fixed; 
+    #sec2 {
+        background-attachment: scroll; 
+        background-position: center right 40%;
     }
 
     #sec2 ul{
@@ -189,7 +191,7 @@ a#github{
 @media screen and (max-width: 620px){
 
     #sec5{
-        background-position: right;
+        background-position: center right;
     }
 
     #sec5 ul{
@@ -203,4 +205,3 @@ a#github{
     }
 
 }
-
