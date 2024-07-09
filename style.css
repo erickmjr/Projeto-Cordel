@@ -103,6 +103,7 @@ header > p{
     background-position: top right;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    max-height: fit-content;
 }
 
 #sec2 ul{
