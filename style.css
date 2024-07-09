@@ -148,11 +148,6 @@ a#github{
 
 @media screen and (max-width:1300px){
 
-    #sec2 {
-        background-attachment: scroll; 
-        background-position: center right 40%;
-    }
-
     #sec2 ul{
         border-radius: 10px;
         padding: 5px;
