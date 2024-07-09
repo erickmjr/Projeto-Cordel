@@ -171,6 +171,7 @@ a#github{
 
     #sec2 {
         background-size: cover;
+        background-position: top right 100%;
     }
 
     #sec2 ul{
