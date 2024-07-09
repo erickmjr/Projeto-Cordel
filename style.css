@@ -205,10 +205,6 @@ a#github{
 
 @media screen and (max-width: 630px){
 
-    #sec2{
-        background-position: top;
-    }
-
     #sec5{
         max-height: 1200px;
         background-position: right;
