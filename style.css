@@ -168,7 +168,9 @@ a#github{
 
 @media screen and (max-width:1300px){
 
-
+    #sec2 {
+        background-size: cover;
+    }
 
     #sec2 ul{
         border-radius: 10px;
