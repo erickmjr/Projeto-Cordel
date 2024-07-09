@@ -68,6 +68,7 @@ header > p{
 
 .letter{
     font-family: var(--fonte-padrao);
+    font-weight: bold;
     padding: 35px;
 }
 
