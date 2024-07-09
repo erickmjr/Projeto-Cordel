@@ -109,12 +109,12 @@ header > p{
 }
 
 #sec5{
-    
+    height: 100vh;
     background-color: var(--cor3) ;
     background-image: url(images/frank2.png);
     background-repeat: no-repeat;
-    background-position: top right;
-    height: 320px;
+    background-position: center right;
+    height: 400px;
 }
 
 #sec5 ul{
@@ -164,6 +164,10 @@ a#github{
         padding: 5px;
         
     }
+
+    #sec5{
+        background-position: center right 30%;
+    }
 }
 
 
@@ -190,6 +194,7 @@ a#github{
     
     #sec5{
         max-height: 1200px;
+        background-position: center right 30%;
     }
 
     .letter p{
@@ -198,13 +203,8 @@ a#github{
 
 }
 
-@media screen and (max-width: 600px){
-    #sec5{
-        background-position: center right 40%;
-    }
-
+@media screen and (max-width: 630px){
     #sec5 ul{
-        margin: auto;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 20px;
         border-radius: 10px;
