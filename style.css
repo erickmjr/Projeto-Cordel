@@ -201,7 +201,11 @@ a#github{
     }
 
     header > p{
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    footer p{
+       font-size: 16px;
     }
 }
 
@@ -220,6 +224,7 @@ a#github{
     }
 
     #sec5 ul{
+        margin: auto;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 20px;
         border-radius: 10px;
@@ -229,7 +234,7 @@ a#github{
         color: var(--cor2);
     }
 
-    footer{
+    footer p{
        font-size: 16px;
     }
 }
