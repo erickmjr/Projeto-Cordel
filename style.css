@@ -170,7 +170,7 @@ a#github{
 @media screen and (max-width:1000px){
 
     #sec2 {
-        background-position: center bottom;
+        background-position: right bottom;
         background-repeat: no-repeat;
         background-attachment: fixed;
         max-height: 1200px;
@@ -208,8 +208,10 @@ a#github{
 @media screen and (max-width: 600px){
 
     #sec5{
-        background-position: center;
+        background-position: center left;
     }
+
+
     #sec5 ul{
         background-color: rgba(0, 0, 0, 0.5);
         padding: 20px;
@@ -218,6 +220,10 @@ a#github{
 
     #sec5 p{
         color: var(--cor2);
+    }
+
+    footer{
+       font-size: 16px;
     }
 }
 
