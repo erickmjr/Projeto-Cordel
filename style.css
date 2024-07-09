@@ -60,7 +60,7 @@ p{
 }
 
 p:hover{
-    color: var(--cor4);
+    color: #569707;
     transition: 0.4s;
 }
 
