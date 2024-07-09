@@ -169,6 +169,14 @@ a#github{
 
 @media screen and (max-width:1000px){
 
+    header h1{
+        font-size: 60px;
+    }
+
+    header p{
+        font-size: 40px;
+    }
+
     #sec2 {
         background-position: right bottom;
         background-repeat: no-repeat;
@@ -199,6 +207,14 @@ a#github{
 }
 
 @media screen and (max-width: 600px){
+
+    header h1{
+        font-size: 45px;
+    }
+
+    header p{
+        font-size: 30px;
+    }
 
     #sec5{
         background-position: center left;
