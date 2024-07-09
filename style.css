@@ -88,8 +88,6 @@ header > p{
     background-image: url('images/frank1.png');
     background-position: top right;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
 }
 
 #sec2 ul{
@@ -120,9 +118,7 @@ header > p{
     max-width: fit-content;
 }
 
-
 footer{
-    display: inline-block;
     max-height: fit-content;
     padding: 5px;
     background-color: var(--cor5);
@@ -190,7 +186,7 @@ a#github{
 
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 620px){
 
     #sec5{
         background-position: right;
