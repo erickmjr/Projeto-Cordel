@@ -59,9 +59,13 @@ p{
     transition-duration: 0.4s;
 }
 
-p:hover{
+.letter  p:hover{
     color: #569707;
     transition: 0.4s;
+}
+
+.othercolor p:hover{
+    color: white;
 }
 
 a#frank{
@@ -98,11 +102,17 @@ header > p{
     background-image: url('images/frank1.png');
     background-position: top right;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #sec2 ul{
     max-width: 600px;
     padding: 15px;
+}
+
+#sec2 > ul > p:hover{
+    color: var(--cor3);
+    transition: 0.4s;
 }
 
 #sec3{
@@ -158,6 +168,8 @@ a#github{
 
 @media screen and (max-width:1300px){
 
+
+
     #sec2 ul{
         border-radius: 10px;
         padding: 5px;
@@ -195,6 +207,10 @@ a#github{
 
 @media screen and (max-width: 630px){
 
+    #sec2{
+        background-attachment: scroll;
+    }
+    
     #sec5{
         background-image: none;
     }
