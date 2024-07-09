@@ -196,28 +196,9 @@ a#github{
         font-size: 25px;
     }
 
-    header > h1{
-        font-size: 84px;
-    }
-
-    header > p{
-        font-size: 44px;
-    }
-
-    footer p{
-       font-size: 20px;
-    }
 }
 
 @media screen and (max-width: 600px){
-
-    header h1{
-        font-size: 40px;
-    }
-
-    header p{
-        font-size: 30px;
-    }
 
     #sec5{
         background-position: center left;
@@ -234,8 +215,5 @@ a#github{
         color: var(--cor2);
     }
 
-    footer p{
-       font-size: 20px;
-    }
 }
 
